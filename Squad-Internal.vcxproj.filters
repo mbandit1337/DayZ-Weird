@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\HOOKS">
+      <UniqueIdentifier>{f2043fc7-9db6-4021-9b76-80c9bd22268a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MISC">
+      <UniqueIdentifier>{87cfc8d3-2fae-461a-9cb5-c5b3605f4bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RENDERER">
+      <UniqueIdentifier>{c623e0f1-e9d2-4339-9054-1cf8c5517c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MISC\MATH">
+      <UniqueIdentifier>{e2265f18-785d-40c7-a620-20ea18a4e789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{4e8188a7-d5b3-44bc-86fa-a95602061d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RENDERER\SQUAD">
+      <UniqueIdentifier>{87c8de3c-a7e4-4fc8-8eab-06dd9d5e518d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooker.cpp">
+      <Filter>Header Files\HOOKS</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Header Files\RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui.cpp">
+      <Filter>Header Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_demo.cpp">
+      <Filter>Header Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_draw.cpp">
+      <Filter>Header Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_impl_dx11.cpp">
+      <Filter>Header Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-master\imgui_widgets.cpp">
+      <Filter>Header Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Header Files\MISC\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Speedhack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooker.h">
+      <Filter>Header Files\HOOKS</Filter>
+    </ClInclude>
+    <ClInclude Include="Singletons.h">
+      <Filter>Header Files\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="Squad.h">
+      <Filter>Header Files\RENDERER\SQUAD</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files\RENDERER\SQUAD</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imconfig.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imgui.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imgui_impl_dx11.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imgui_internal.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imstb_rectpack.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imstb_textedit.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-master\imstb_truetype.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RUDA-BOLD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Header Files\MISC\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\MISC\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dayz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vectoprr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="speedhack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hotkeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="RebirthGuard.lib" />
+  </ItemGroup>
+</Project>
